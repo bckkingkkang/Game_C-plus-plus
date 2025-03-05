@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Chapter02",
-    "\\Chapter02\\DataTypeExample",
-    "\\Chapter02\\DataTypeExample\\DataTypeExample"
+    "\\Chapter02\\DataTypeExample\\DataTypeExample",
+    "\\Chapter03"
   ],
-  "SelectedNode": "\\Chapter03",
+  "SelectedNode": "\\Chapter02",
   "PreviewInSolutionExplorer": false
 }
