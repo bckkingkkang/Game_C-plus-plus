@@ -1,0 +1,3 @@
+﻿  소스.cpp
+D:\Game_C++\Game_C-plus-plus\Chapter03\SimpleMethodExample\SimpleMethodExample\소스.cpp(11,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  SimpleMethodExample.vcxproj -> D:\Game_C++\Game_C-plus-plus\Chapter03\SimpleMethodExample\SimpleMethodExample\x64\Debug\SimpleMethodExample.exe
