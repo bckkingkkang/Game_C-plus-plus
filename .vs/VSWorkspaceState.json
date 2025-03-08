@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Chapter02",
-    "\\Chapter02\\PrimeNumberFind\\PrimeNumberFind",
-    "\\Chapter03"
+    "\\Chapter02\\IncomeTaxCalc",
+    "\\Chapter02\\IncomeTaxCalc\\IncomeTaxCalc",
+    "\\Chapter02\\NumberPyramid",
+    "\\Chapter02\\NumberPyramid\\NumberPyramid"
   ],
-  "SelectedNode": "\\Chapter02\\PrimeNumberFind",
+  "SelectedNode": "\\Chapter02\\NumberPyramid\\NumberPyramid\\NumberPyramid.cpp",
   "PreviewInSolutionExplorer": false
 }

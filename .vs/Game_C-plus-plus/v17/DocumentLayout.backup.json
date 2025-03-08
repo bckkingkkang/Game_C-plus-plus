@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\Game_C-plus-plus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\PrimeNumberFind\\PrimeNumberFind\\PrimeNumberFind.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chapter02\\PrimeNumberFind\\PrimeNumberFind\\PrimeNumberFind.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\IncomeTaxCalc\\IncomeTaxCalc\\IncomeTaxCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chapter02\\IncomeTaxCalc\\IncomeTaxCalc\\IncomeTaxCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\CelsToFahr\\CelsToFahr\\CelsToFahr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chapter02\\CelsToFahr\\CelsToFahr\\CelsToFahr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\NumberPyramid\\NumberPyramid\\NumberPyramid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chapter02\\NumberPyramid\\NumberPyramid\\NumberPyramid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,29 +41,33 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CelsToFahr.cpp",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\CelsToFahr\\CelsToFahr\\CelsToFahr.cpp",
-              "RelativeDocumentMoniker": "Chapter02\\CelsToFahr\\CelsToFahr\\CelsToFahr.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\CelsToFahr\\CelsToFahr\\CelsToFahr.cpp",
-              "RelativeToolTip": "Chapter02\\CelsToFahr\\CelsToFahr\\CelsToFahr.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:44:11.743Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PrimeNumberFind.cpp",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\PrimeNumberFind\\PrimeNumberFind\\PrimeNumberFind.cpp",
-              "RelativeDocumentMoniker": "Chapter02\\PrimeNumberFind\\PrimeNumberFind\\PrimeNumberFind.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\PrimeNumberFind\\PrimeNumberFind\\PrimeNumberFind.cpp",
-              "RelativeToolTip": "Chapter02\\PrimeNumberFind\\PrimeNumberFind\\PrimeNumberFind.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
+              "Title": "IncomeTaxCalc.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\IncomeTaxCalc\\IncomeTaxCalc\\IncomeTaxCalc.cpp",
+              "RelativeDocumentMoniker": "Chapter02\\IncomeTaxCalc\\IncomeTaxCalc\\IncomeTaxCalc.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\IncomeTaxCalc\\IncomeTaxCalc\\IncomeTaxCalc.cpp",
+              "RelativeToolTip": "Chapter02\\IncomeTaxCalc\\IncomeTaxCalc\\IncomeTaxCalc.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:13:09.101Z",
+              "WhenOpened": "2025-03-08T16:20:31.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NumberPyramid.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\NumberPyramid\\NumberPyramid\\NumberPyramid.cpp",
+              "RelativeDocumentMoniker": "Chapter02\\NumberPyramid\\NumberPyramid\\NumberPyramid.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game_C-plus-plus\\Chapter02\\NumberPyramid\\NumberPyramid\\NumberPyramid.cpp",
+              "RelativeToolTip": "Chapter02\\NumberPyramid\\NumberPyramid\\NumberPyramid.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-08T15:47:33.865Z",
               "EditorCaption": ""
             }
           ]
