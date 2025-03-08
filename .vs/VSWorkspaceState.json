@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Chapter02",
-    "\\Chapter02\\IncomeTaxCalc",
-    "\\Chapter02\\IncomeTaxCalc\\IncomeTaxCalc",
-    "\\Chapter02\\NumberPyramid",
-    "\\Chapter02\\NumberPyramid\\NumberPyramid"
+    "\\Chapter02\\UpAndDownGame",
+    "\\Chapter02\\UpAndDownGame\\UpAndDownGame"
   ],
-  "SelectedNode": "\\Chapter02\\NumberPyramid\\NumberPyramid\\NumberPyramid.cpp",
+  "SelectedNode": "\\Chapter02\\UpAndDownGame\\UpAndDownGame\\UpAndDownGame.cpp",
   "PreviewInSolutionExplorer": false
 }
