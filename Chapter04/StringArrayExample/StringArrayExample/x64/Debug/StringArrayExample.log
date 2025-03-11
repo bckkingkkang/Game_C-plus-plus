@@ -1,0 +1,6 @@
+﻿  StringArrayExample.cpp
+D:\Game_C++\Game_C-plus-plus\Chapter04\StringArrayExample\StringArrayExample\StringArrayExample.cpp(6,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+D:\Game_C++\Game_C-plus-plus\Chapter04\StringArrayExample\StringArrayExample\StringArrayExample.cpp(13,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+D:\Game_C++\Game_C-plus-plus\Chapter04\StringArrayExample\StringArrayExample\StringArrayExample.cpp(14,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+D:\Game_C++\Game_C-plus-plus\Chapter04\StringArrayExample\StringArrayExample\StringArrayExample.cpp(15,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+  StringArrayExample.vcxproj -> D:\Game_C++\Game_C-plus-plus\Chapter04\StringArrayExample\x64\Debug\StringArrayExample.exe
