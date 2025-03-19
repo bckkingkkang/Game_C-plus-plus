@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41F03828-2181-4164-8896-0F945560A68C}|RankingBoard\\RankingBoard.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\Ranking.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41F03828-2181-4164-8896-0F945560A68C}|RankingBoard\\RankingBoard.vcxproj|solutionrelative:RankingBoard\\Ranking.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F03828-2181-4164-8896-0F945560A68C}|RankingBoard\\RankingBoard.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\Ranking.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41F03828-2181-4164-8896-0F945560A68C}|RankingBoard\\RankingBoard.vcxproj|solutionrelative:RankingBoard\\Ranking.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F03828-2181-4164-8896-0F945560A68C}|RankingBoard\\RankingBoard.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\RankingBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41F03828-2181-4164-8896-0F945560A68C}|RankingBoard\\RankingBoard.vcxproj|solutionrelative:RankingBoard\\RankingBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ranking.h",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\Ranking.h",
+              "RelativeDocumentMoniker": "RankingBoard\\Ranking.h",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\Ranking.h",
+              "RelativeToolTip": "RankingBoard\\Ranking.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-19T14:04:27.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ranking.cpp",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\Ranking.cpp",
+              "RelativeDocumentMoniker": "RankingBoard\\Ranking.cpp",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\Ranking.cpp",
+              "RelativeToolTip": "RankingBoard\\Ranking.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T14:04:01.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RankingBoard.cpp",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\RankingBoard.cpp",
+              "RelativeDocumentMoniker": "RankingBoard\\RankingBoard.cpp",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter04\\RankingBoard\\RankingBoard\\RankingBoard.cpp",
+              "RelativeToolTip": "RankingBoard\\RankingBoard.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T14:00:04.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

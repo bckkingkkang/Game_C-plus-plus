@@ -1,0 +1,12 @@
+﻿  Ranking.cpp
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\Ranking.cpp(13,13): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\Ranking.cpp(19,4): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\Ranking.cpp(43,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\Ranking.cpp(56,15): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\Ranking.cpp(56,15): warning C4313: 'fprintf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\Ranking.cpp(56,15): warning C4477: 'fprintf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\Ranking.cpp(56,61): warning C4474: 'fprintf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\Ranking.cpp(50,13): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RankingBoard.cpp
+D:\Game_C++\Game_C-plus-plus\Chapter04\RankingBoard\RankingBoard\RankingBoard.cpp(7,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  코드를 생성하고 있습니다...
