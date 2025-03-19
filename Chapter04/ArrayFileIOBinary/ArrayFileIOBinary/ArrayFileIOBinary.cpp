@@ -25,5 +25,18 @@ void main() {
 	printf("원본 데이터 : ");
 	fprintArray(a, 10);
 
-	
+	fp = fopen("이진파일.bin", "w");
+	if (fp != NULL) {
+		fwrite(a, sizeof(int), 10, fp);
+		// 데이터 주소, 자료형의 크기, 자료의 개수, 파일 포인터
+		fclose(fp);
+	}
+
+	fp = fopen("이진파일.bin", "r");
+	if (fp != NULL) {
+		fread(b, sizeof(int), 10, fp);
+		printf("이진 파일 : ");
+		fprintArray(b, 10);
+		fclose(fp);
+	}
 }
