@@ -34,3 +34,35 @@ void blobColoring(unsigned char img[HEIGHT][WIDTH]) {
 		}
 	}
 }
+
+void printImage(unsigned char img[HEIGHT][WIDTH], const char* msg) {
+	printf("%s\n", msg);
+
+	for (int y = 0; y < HEIGHT; y++) {
+		for (int x = 0; x < WIDTH; x++) {
+			if (img[y][x] == 0) {
+				// 배경이면 .으로 나타낸다.
+				printf(".");
+			}
+			else {
+				printf("%d", img[y][x]);
+			}
+		}
+		printf("\n");
+	}
+	printf("\n");
+}
+
+void main() {
+	unsigned char image[HEIGHT][WIDTH] = {
+		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+		0, 9, 9, 9, 9, 0, 0, 0, 9, 0, 0, 0, 0, 0, 9, 0, 0,
+		9, 9, 0, 0, 0, 0, 9, 9, 9, 9, 9, 0, 9, 9, 9, 9, 9,
+		0, 9, 9, 9, 9, 0, 0, 0, 9, 0, 0, 0, 0, 0, 9, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+	};
+
+	printImage(image, "Original image");
+	blobColoring(image);
+	printImage(image, "labelled image");
+}
