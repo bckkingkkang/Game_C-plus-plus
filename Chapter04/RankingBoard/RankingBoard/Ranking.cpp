@@ -2,7 +2,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 static PlayInfo MVP[5];
 
-static void initLanking() {
+// 전역변수나 함수를 static으로 처리하는 것은 그 변수나 함수를 해당 파일에서만 사용하라는 의미를 가진다
+static void initRanking() {
 	PlayInfo noname = { "C++", 1000, 1000.0 };
 	for (int i = 0; i < 5; i++) {
 		MVP[i] = noname;
@@ -24,7 +25,7 @@ void loadRanking(const char* fname) {
 
 void printRanking() {
 	for (int i = 0; i < 5; i++) {
-		printf("%d�� : %d %s %f\n", i + 1, MVP[i].nMove, MVP[i].name, MVP[i].tElapsed);
+		printf("%dÀ§ : %d %s %f\n", i + 1, MVP[i].nMove, MVP[i].name, MVP[i].tElapsed);
 	}
 }
 
@@ -39,7 +40,7 @@ int addRanking(int nMove, double tElap) {
 		}
 		MVP[pos].nMove = nMove;
 		MVP[pos].tElapsed = tElap;
-		printf("%d��, �̸��� �Է��ϼ��� : ",pos+1);
+		printf("%dÀ§, ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ",pos+1);
 		scanf("%s", MVP[pos].name);
 		return pos + 1;
 	}
