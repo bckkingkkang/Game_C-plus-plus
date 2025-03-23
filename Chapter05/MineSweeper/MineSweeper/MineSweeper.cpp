@@ -1,4 +1,5 @@
 ﻿#include "MineSweeper.h"
+#include <windows.h>
 
 // Demension(한 변 크기), 게임 판의 기본 크기 정의 DIM * DIM
 #define DIM 9
@@ -89,3 +90,57 @@ static int getFlagCount() {
 }
 
 // 지뢰 맵의 화면 출력 함수
+static void print() {
+	// windows 환경 전용 화면 클리어(콘솔 화면 지움)
+	system("cls");
+	printf("발견 : %d \t 전체 : %d\n", getFlagCount(), nBomb);
+
+	// 열 라벨 표시
+	printf("① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨\n");
+
+	for (int y = 0; y < ny; y++) {
+		// 행 라벨 표시
+		printf("%c ", 'A' + y);	// ASCII 코드로 변환하여 출력
+
+		// [y][x] 모든 좌표 값에 대해
+		for (int x = 0; x < nx; x++) {
+			// Hide(파지 않은) 상태인 곳이라면
+			if (mask(x, y) == Hide) {
+				printf("■");
+			}
+			// Flag 상태(지뢰 예상 자리)인 경우
+			else if (mask(x, y) == Flag) {
+				// 현재 콘솔 코드 페이지 저장
+				UINT oldCP = GetConsoleOutputCP();
+				// 인코딩 유니코드로 변경
+				SetConsoleOutputCP(65001);
+				// 깃발 출력
+				printf(u8"\u2690");
+				// 한글 인코딩 깨지지 않도록 이전 코드 페이지로 되돌려놓는다
+				SetConsoleOutputCP(oldCP);
+			}
+			// open 상태인 곳에 대해 if
+			else {
+				// 지뢰인 좌표라면
+				if (isBomb(x, y)) {
+					// 현재 콘솔 코드 페이지 저장
+					UINT oldCP = GetConsoleOutputCP();
+					// 인코딩 유니코드로 변경
+					SetConsoleOutputCP(65001);
+					// 폭탄 출력
+					printf(u8"\u2620");
+					// 한글 인코딩 깨지지 않도록 이전 코드 페이지로 되돌려놓는다
+					SetConsoleOutputCP(oldCP);
+				}
+				// 지뢰가 아닌 좌표라면
+				else if (isEmpty(x, y)) {
+					printf("□");
+				}
+				else {
+					printf("%d\n", label(x, y));
+				}
+			}
+		}
+		printf("\n");
+	}
+}
