@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|solutionrelative:MineSweeper\\MineSweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeperMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|solutionrelative:MineSweeper\\MineSweeperMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|solutionrelative:MineSweeper\\MineSweeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|solutionrelative:MineSweeper\\MineSweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MineSweeper.h",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.h",
               "RelativeDocumentMoniker": "MineSweeper\\MineSweeper.h",
@@ -59,26 +59,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MineSweeperMain.cpp",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeperMain.cpp",
               "RelativeDocumentMoniker": "MineSweeper\\MineSweeperMain.cpp",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeperMain.cpp",
               "RelativeToolTip": "MineSweeper\\MineSweeperMain.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-23T04:46:13.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MineSweeper.cpp",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.cpp",
               "RelativeDocumentMoniker": "MineSweeper\\MineSweeper.cpp",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.cpp",
               "RelativeToolTip": "MineSweeper\\MineSweeper.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-23T04:44:09.69Z",
               "EditorCaption": ""
