@@ -72,3 +72,20 @@ static void mark(int x, int y) {
 		mask(x, y) = Flag;
 	}
 }
+
+// Flag(깃발)의 수를 반환하는 함수
+static int getFlagCount() {
+	int count = 0;
+	// 맵에 있는 모든 좌표에 대해
+	for (int x = 0; x < nx; x++) {
+		for (int y = 0; y < ny; y++) {
+			// Flag 상태라면 count 증가
+			if (mask(x, y) == Flag) {
+				count++;
+			}
+		}
+	}
+	return count;
+}
+
+// 지뢰 맵의 화면 출력 함수
