@@ -158,3 +158,42 @@ static int countNbrBombs(int x, int y) {
 	return count;
 }
 
+// 게임 초기화 함수
+static void init(int total = 9) {	// 디폴트 매개변수
+	// 지뢰를 매설할 좌표는 무작위로 발생시킨다.
+	srand((unsigned int)time(NULL));
+
+	// 전체 맵(지뢰 맵, 마스크 맵) 초기화
+	for(int y=0; y < ny; y++) {
+		for (int x = 0; x < nx; x++) {
+			mask(x, y) = Hide;
+			label(x, y) = 0;
+		}
+	}
+
+	// 입력받은 지뢰의 개수를 nBomb 변수에 저장
+	nBomb = total;
+
+	// 지뢰 매설 (입력받은 지뢰의 개수만큼 반복한다.)
+	for (int i = 0; i < nBomb; i++) {
+		int x, y;
+		do {
+			x = rand() % nx;
+			y = rand() % ny;
+		} while (label(x, y) == Bomb);	// 이미 지뢰가 있는 경우 다시 랜덤 좌표 생성
+		// 지뢰가 없는 좌표라면 지뢰를 매설한다.
+		label(x, y) = Bomb;
+	}
+
+	// 인접 지뢰의 수 계산
+	for(int y= 0; y < ny; y++) {
+		for (int x = 0; x < nx; x++) {
+			// 해당 좌표에 지뢰가 없다면
+			if (label(x, y) == Empty) {
+				// 인근 지뢰 수를 계산해서 해당 좌표 label(x,y)에 저장
+				label(x,y) =countNbrBombs(x, y);
+			}
+		}
+	}
+
+}
