@@ -195,5 +195,34 @@ static void init(int total = 9) {	// 디폴트 매개변수
 			}
 		}
 	}
+}
 
+// 키보드 좌표 입력 함수 - 좌표(x,y)를 입력받고 P 입력 시 깃발 세우기 모드로 전환
+// x, y를 참조자로 받음 
+// x, y 가 입력받는 즉시 바뀌어야 하는데 참조자를 사용하지 않으면 단순히 전달받은 매개변수라 변경해도 지역변수로 함수 외부로 변경된 값이 나갈 수 없음
+static bool getPos(int& x, int& y) {
+	printf("(깃발을 꽂을 위치를 선택하려면 'P'를 추가 입력하세요)\n");
+	printf("        행(A~I)과 열(1~9)을 입력하세요 : \n");
+	printf("\t\t\t입력 : ");
+	
+	// 'P' 입력 시 깃발 모드(true)로 전환
+	bool isFlagMode = false;
+
+	// 입력받은 문자를 무조건 대문자로 변환후 'A'를 빼서 y 좌표의 값을 구한다.
+	y = toupper(getch()) - 'A';
+	
+	// 'P'를 입력받은 경우
+	if(y == 'P' - 'A') {
+		// 깃발 모드로 전환
+		isFlagMode = true;
+		
+		// 다시 y 좌표 입력받기
+		y = toupper(getche()) - 'A';
+
+		// getch() : 콘솔 표시 X, getche() : 콘솔 표시 O
+	}
+	// x 좌표 입력받기
+	x = getch() - '1';
+
+	return isFlagMode;
 }
