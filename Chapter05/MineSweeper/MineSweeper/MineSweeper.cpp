@@ -34,3 +34,32 @@ inline bool isValid(int x, int y) { return (x >= 0 && x < nx && y >= 0 && y < ny
 inline bool isBomb(int x, int y) { return isValid(x, y) && label(x, y) == Bomb; }
 // 좌표가 맵 안에 있는지 && 해당 좌표가 비어있는지
 inline bool isEmpty(int x, int y) { return isValid(x, y) && label(x, y) == Empty; }
+
+// 입력받은 (x,y) 좌표를 Open 상태로 변경하는 함수
+static void dig(int x, int y) {
+	/*
+		칸을 파면 마스크 맵의 해당 칸은 Open이 된다.
+
+		입력받은 좌표가 유효한 값이고 Open되지 않은 상태라면 해당 좌표 Open
+
+		if(해당 좌표의 값이 0이라면) {
+		    인접한 0이 없을 때까지 모든 이웃칸을 파낸다(Open) -> 재귀호출
+		}	
+	*/
+	if (isValid(x, y) && mask(x, y) != Open) {
+		// mask() 함수가 참조자를 반환하므로 mask(x, y) = Open; 으로 값 변경 가능
+		mask(x, y) = Open;
+
+		if (label(x, y) == 0) {
+			dig(x - 1, y);
+			dig(x + 1, y);
+			dig(x, y - 1);
+			dig(x, y + 1);
+			dig(x - 1, y - 1);
+			dig(x + 1, y + 1);
+			dig(x - 1, y + 1);
+			dig(x + 1, y - 1);
+		}
+	}
+
+}
