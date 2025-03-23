@@ -144,3 +144,17 @@ static void print() {
 		printf("\n");
 	}
 }
+
+// 인접 지뢰 계산 함수
+static int countNbrBombs(int x, int y) {
+	int count = 0;
+	for (int i = y - 1; i <= y + 1; i++) {
+		for (int j = x - 1; j <= x + 1; j++) {
+			if (isBomb(j, i)) {
+				count++;
+			}
+		}
+	}
+	return count;
+}
+
