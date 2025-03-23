@@ -93,10 +93,10 @@ static int getFlagCount() {
 static void print() {
 	// windows 환경 전용 화면 클리어(콘솔 화면 지움)
 	system("cls");
-	printf("발견 : %d \t 전체 : %d\n", getFlagCount(), nBomb);
+	printf("발견 : %d \t 전체 : %d\n\n", getFlagCount(), nBomb);
 
 	// 열 라벨 표시
-	printf("① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨\n");
+	printf("  ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨\n");
 
 	for (int y = 0; y < ny; y++) {
 		// 행 라벨 표시
@@ -106,7 +106,7 @@ static void print() {
 		for (int x = 0; x < nx; x++) {
 			// Hide(파지 않은) 상태인 곳이라면
 			if (mask(x, y) == Hide) {
-				printf("■");
+				printf("■ ");
 			}
 			// Flag 상태(지뢰 예상 자리)인 경우
 			else if (mask(x, y) == Flag) {
@@ -115,7 +115,7 @@ static void print() {
 				// 인코딩 유니코드로 변경
 				SetConsoleOutputCP(65001);
 				// 깃발 출력
-				printf(u8"\u2690");
+				printf(u8"\u2690 ");
 				// 한글 인코딩 깨지지 않도록 이전 코드 페이지로 되돌려놓는다
 				SetConsoleOutputCP(oldCP);
 			}
@@ -128,16 +128,16 @@ static void print() {
 					// 인코딩 유니코드로 변경
 					SetConsoleOutputCP(65001);
 					// 폭탄 출력
-					printf(u8"\u2620");
+					printf(u8"\u2620 ");
 					// 한글 인코딩 깨지지 않도록 이전 코드 페이지로 되돌려놓는다
 					SetConsoleOutputCP(oldCP);
 				}
 				// 지뢰가 아닌 좌표라면
 				else if (isEmpty(x, y)) {
-					printf("□");
+					printf("□ ");
 				}
 				else {
-					printf("%d\n", label(x, y));
+					printf("%2d ", label(x, y));
 				}
 			}
 		}
@@ -201,15 +201,15 @@ static void init(int total = 9) {	// 디폴트 매개변수
 // x, y를 참조자로 받음 
 // x, y 가 입력받는 즉시 바뀌어야 하는데 참조자를 사용하지 않으면 단순히 전달받은 매개변수라 변경해도 지역변수로 함수 외부로 변경된 값이 나갈 수 없음
 static bool getPos(int& x, int& y) {
-	printf("(깃발을 꽂을 위치를 선택하려면 'P'를 추가 입력하세요)\n");
-	printf("        행(A~I)과 열(1~9)을 입력하세요 : \n");
-	printf("\t\t\t입력 : ");
+	printf("\n(깃발을 꽂을 위치를 선택하려면 'P'를 추가 입력하세요)\n");
+	printf("행(A~I)과 열(1~9)을 입력하세요 : \n");
+	printf("입력 : ");
 	
 	// 'P' 입력 시 깃발 모드(true)로 전환
 	bool isFlagMode = false;
 
 	// 입력받은 문자를 무조건 대문자로 변환후 'A'를 빼서 y 좌표의 값을 구한다.
-	y = toupper(getch()) - 'A';
+	y = toupper(_getch()) - 'A';
 	
 	// 'P'를 입력받은 경우
 	if(y == 'P' - 'A') {
@@ -217,12 +217,72 @@ static bool getPos(int& x, int& y) {
 		isFlagMode = true;
 		
 		// 다시 y 좌표 입력받기
-		y = toupper(getche()) - 'A';
+		y = toupper(_getche()) - 'A';
 
 		// getch() : 콘솔 표시 X, getche() : 콘솔 표시 O
 	}
 	// x 좌표 입력받기
-	x = getch() - '1';
+	x = _getch() - '1';
 
 	return isFlagMode;
+}
+
+// 게임 종료 검사 함수
+static int checkDone() {
+	/*
+	1 : 지뢰 찾기 성공
+	0 : 게임이 계속 진행
+	-1 : 지뢰를 엶
+	*/
+	
+	int count = 0;
+
+	// 전체 좌표에 대해서
+	for (int y = 0; y < ny; y++) {
+		for (int x = 0; x < nx; x++) {
+			if (mask(x, y) != Open) {
+				// 해당 좌표가 열리지 않은 상태라면 count 증가
+				count++;
+			// 해당 좌표가 열린 상태인데
+			} else if (isBomb(x, y)) {
+				// 지뢰인 경우 게임 실패 -1 반환
+				return -1;
+			}
+		}
+	}
+	// Open 되지 않은 좌표가 지뢰의 수와 같으면 성공 1 반환, 아니라면 게임을 계속 진행한다.
+	return count == nBomb ? 1 : 0;
+}
+
+// 지뢰 찾기 주 함수
+void playMineSweeper(int total) {
+	int x, y, status;
+
+	// 전달 받은 매설할 지뢰의 수(total)로 게임 초기화
+	init(total);
+
+	// checkDone()이 0이면 반복문 계속 실행한다. (checkDone()의 반환값을 status 변수에 저장, while(status))
+	do {
+		// 맵을 화면에 출력
+		print();
+		
+		// 좌표를 입력받고 Flag 모드인지 확인
+		bool isFlagMode = getPos(x, y);
+		if (isFlagMode) {
+			// Flag 모드라면 mark() 함수 호출
+			mark(x, y);
+		} else {
+			// Flag 모드가 아니라면 dig() 함수 호출
+			dig(x, y);
+		}
+		status = checkDone();
+	} while(status == 0);
+
+	// 게임 종료 후 맵을 한 번 더 출력
+	print();
+	if (status == 1) {
+		printf("[ **게임 성공** 지뢰를 모두 찾았습니다. ]\n");
+	}
+	else {
+		printf("[ **게임 실패** 지뢰를 밟았습니다. ]\n");}
 }
