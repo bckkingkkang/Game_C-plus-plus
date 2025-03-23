@@ -63,3 +63,12 @@ static void dig(int x, int y) {
 	}
 
 }
+
+// 입력받은 (x, y) 좌표를 Flag 상태로 변경하는 함수
+static void mark(int x, int y) {
+	// isValid = true이면서 Open되지 않은 Hide 칸을 Flag로 변경
+	if (isValid(x, y) && mask(x, y) == Hide) {
+		// mask() 함수가 참조자를 반환하므로 mask(x, y) = Flag; 으로 값 변경 가능
+		mask(x, y) = Flag;
+	}
+}
