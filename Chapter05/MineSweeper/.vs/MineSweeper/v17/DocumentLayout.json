@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|solutionrelative:MineSweeper\\MineSweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MineSweeper\\MineSweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeperMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|solutionrelative:MineSweeper\\MineSweeperMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeperMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MineSweeper\\MineSweeperMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50D38741-676B-4A96-8528-2515C86726A8}|MineSweeper\\MineSweeper.vcxproj|solutionrelative:MineSweeper\\MineSweeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MineSweeper\\MineSweeper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "MineSweeper\\MineSweeper.h",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.h",
               "RelativeToolTip": "MineSweeper\\MineSweeper.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-23T04:46:24.174Z",
               "EditorCaption": ""
@@ -78,7 +78,7 @@
               "RelativeDocumentMoniker": "MineSweeper\\MineSweeper.cpp",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter05\\MineSweeper\\MineSweeper\\MineSweeper.cpp",
               "RelativeToolTip": "MineSweeper\\MineSweeper.cpp",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAMwIsAAAARAAAA",
+              "ViewState": "AQIAANMAAAAAAAAAAAAMwN8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-23T04:44:09.69Z",
               "EditorCaption": ""
