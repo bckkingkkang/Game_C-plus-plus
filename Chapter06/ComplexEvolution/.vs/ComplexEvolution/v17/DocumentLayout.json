@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1C1617B-50EF-4E13-A4A2-790FACE7D376}|ComplexEvolution\\ComplexEvolution.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\ComplexMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1C1617B-50EF-4E13-A4A2-790FACE7D376}|ComplexEvolution\\ComplexEvolution.vcxproj|solutionrelative:ComplexEvolution\\ComplexMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1C1617B-50EF-4E13-A4A2-790FACE7D376}|ComplexEvolution\\ComplexEvolution.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\ComplexEvolution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A1C1617B-50EF-4E13-A4A2-790FACE7D376}|ComplexEvolution\\ComplexEvolution.vcxproj|solutionrelative:ComplexEvolution\\ComplexEvolution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1C1617B-50EF-4E13-A4A2-790FACE7D376}|ComplexEvolution\\ComplexEvolution.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\Complex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A1C1617B-50EF-4E13-A4A2-790FACE7D376}|ComplexEvolution\\ComplexEvolution.vcxproj|solutionrelative:ComplexEvolution\\Complex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1C1617B-50EF-4E13-A4A2-790FACE7D376}|ComplexEvolution\\ComplexEvolution.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\ComplexMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1C1617B-50EF-4E13-A4A2-790FACE7D376}|ComplexEvolution\\ComplexEvolution.vcxproj|solutionrelative:ComplexEvolution\\ComplexMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,39 +46,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ComplexMain.cpp",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\ComplexMain.cpp",
               "RelativeDocumentMoniker": "ComplexEvolution\\ComplexMain.cpp",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\ComplexMain.cpp",
               "RelativeToolTip": "ComplexEvolution\\ComplexMain.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-26T23:04:58.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Complex.h",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\Complex.h",
               "RelativeDocumentMoniker": "ComplexEvolution\\Complex.h",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\Complex.h",
               "RelativeToolTip": "ComplexEvolution\\Complex.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-26T23:04:30.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ComplexEvolution.cpp",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\ComplexEvolution.cpp",
               "RelativeDocumentMoniker": "ComplexEvolution\\ComplexEvolution.cpp",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\ComplexEvolution\\ComplexEvolution\\ComplexEvolution.cpp",
               "RelativeToolTip": "ComplexEvolution\\ComplexEvolution.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-26T23:04:04.009Z",
               "EditorCaption": ""
