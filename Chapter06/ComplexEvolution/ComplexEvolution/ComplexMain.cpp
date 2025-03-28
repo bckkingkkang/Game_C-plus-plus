@@ -15,10 +15,18 @@ void main() {
 	//printfComplex(b, " B : ");
 	//printfComplex(c, " A+B : ");
 
-	a.readComplex("A : ");
+	/*a.readComplex("A : ");
 	b.readComplex("B : ");
 	c.addComplex(a, b);
 	a.printfComplex(" A : ");
 	b.printfComplex(" B : ");
-	c.printfComplex(" A+B : ");
+	c.printfComplex(" A+B : ");*/
+
+	// 멤버 함수 이름의 단순화에 따라 호출 코드도 단순해짐
+	a.read("A : ");
+	b.read("B : ");
+	c.add(a, b);
+	a.print(" A : ");
+	b.print(" B : ");
+	c.print(" A+B : ");
 }

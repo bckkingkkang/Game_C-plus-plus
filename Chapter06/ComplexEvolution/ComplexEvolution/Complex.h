@@ -12,9 +12,14 @@ public:
 		imag = i;
 	}
 
-	void readComplex(const char* msg = "복소수");
-	void printfComplex(const char* msg = "복소수");
-	void addComplex(Complex a, Complex b);
+	//void readComplex(const char* msg = "복소수");
+	//void printfComplex(const char* msg = "복소수");
+	//void addComplex(Complex a, Complex b);
+
+	// 일반 멤버 함수들의 이름을 단순하게 변경, 이 클래스에서만 의미가 있으므로 이름 변경 시에도 의미가 명확함
+	void read(const char* msg = "복소수");
+	void print(const char* msg = "복소수");
+	void add(Complex a, Complex b);
 };
 
 //inline void setcomplex(Complex& c, double r, double i) {
