@@ -3,8 +3,15 @@
   "WorkspaceRootPath": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6479FB6-C686-42AE-9611-970DB747F09B}|HangmanGame\\HangmanGame.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\HangmanGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F6479FB6-C686-42AE-9611-970DB747F09B}|HangmanGame\\HangmanGame.vcxproj|solutionrelative:HangmanGame\\HangmanGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F6479FB6-C686-42AE-9611-970DB747F09B}|HangmanGame\\HangmanGame.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\Hangman.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6479FB6-C686-42AE-9611-970DB747F09B}|HangmanGame\\HangmanGame.vcxproj|solutionrelative:HangmanGame\\Hangman.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6479FB6-C686-42AE-9611-970DB747F09B}|HangmanGame\\HangmanGame.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.40.33807\\INCLUDE\\XSTRING||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6479FB6-C686-42AE-9611-970DB747F09B}|HangmanGame\\HangmanGame.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6479FB6-C686-42AE-9611-970DB747F09B}|HangmanGame\\HangmanGame.vcxproj|solutionrelative:HangmanGame\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,15 +45,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "xstring",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xstring",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\xstring",
+              "ViewState": "AQIAADYQAAAAAAAAAAAMwEYQAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-30T20:01:43.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HangmanGame.cpp",
-              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\HangmanGame.cpp",
-              "RelativeDocumentMoniker": "HangmanGame\\HangmanGame.cpp",
-              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\HangmanGame.cpp",
-              "RelativeToolTip": "HangmanGame\\HangmanGame.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAcwCkAAAAmAAAA",
+              "Title": "Hangman.h",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\Hangman.h",
+              "RelativeDocumentMoniker": "HangmanGame\\Hangman.h",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\Hangman.h",
+              "RelativeToolTip": "HangmanGame\\Hangman.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-30T19:53:28.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\Main.cpp",
+              "RelativeDocumentMoniker": "HangmanGame\\Main.cpp",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter06\\HangmanGame\\HangmanGame\\Main.cpp",
+              "RelativeToolTip": "HangmanGame\\Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-30T18:00:46.771Z",
+              "WhenOpened": "2025-03-30T19:53:04.913Z",
               "EditorCaption": ""
             }
           ]
