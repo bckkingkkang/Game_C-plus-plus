@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{754693F0-0980-4532-8FF8-E850CF5B0D61}|ShapeExample\\ShapeExample.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\ShapeExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{754693F0-0980-4532-8FF8-E850CF5B0D61}|ShapeExample\\ShapeExample.vcxproj|solutionrelative:ShapeExample\\ShapeExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{754693F0-0980-4532-8FF8-E850CF5B0D61}|ShapeExample\\ShapeExample.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\ShapeMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{754693F0-0980-4532-8FF8-E850CF5B0D61}|ShapeExample\\ShapeExample.vcxproj|solutionrelative:ShapeExample\\ShapeMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754693F0-0980-4532-8FF8-E850CF5B0D61}|ShapeExample\\ShapeExample.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{754693F0-0980-4532-8FF8-E850CF5B0D61}|ShapeExample\\ShapeExample.vcxproj|solutionrelative:ShapeExample\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +42,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shape.h",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\Shape.h",
+              "RelativeDocumentMoniker": "ShapeExample\\Shape.h",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\Shape.h",
+              "RelativeToolTip": "ShapeExample\\Shape.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T14:25:09.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShapeExample.cpp",
-              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\ShapeExample.cpp",
-              "RelativeDocumentMoniker": "ShapeExample\\ShapeExample.cpp",
-              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\ShapeExample.cpp",
-              "RelativeToolTip": "ShapeExample\\ShapeExample.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Title": "ShapeMain.cpp",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\ShapeMain.cpp",
+              "RelativeDocumentMoniker": "ShapeExample\\ShapeMain.cpp",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\ShapeMain.cpp",
+              "RelativeToolTip": "ShapeExample\\ShapeMain.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-01T14:22:14.738Z",
               "EditorCaption": ""
