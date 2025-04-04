@@ -21,6 +21,20 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shape.h",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\Shape.h",
+              "RelativeDocumentMoniker": "ShapeExample\\Shape.h",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\Shape.h",
+              "RelativeToolTip": "ShapeExample\\Shape.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T14:25:09.153Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
@@ -39,19 +53,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Shape.h",
-              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\Shape.h",
-              "RelativeDocumentMoniker": "ShapeExample\\Shape.h",
-              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter07\\ShapeExample\\ShapeExample\\Shape.h",
-              "RelativeToolTip": "ShapeExample\\Shape.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-01T14:25:09.153Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

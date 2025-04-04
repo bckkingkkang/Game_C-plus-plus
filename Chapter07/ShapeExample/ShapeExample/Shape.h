@@ -4,7 +4,12 @@ using namespace std;
 
 struct Point {
 	int x, y;	// 화면 상의 점을 표현하는 클래스
-	Point(int xx = 0, int yy = 0) : x(xx), y(yy) {}
+	Point(int xx = 0, int yy = 0) : x(xx), y(yy) {
+		cout << "Point 생성자\n";
+	}
+	~Point() {
+		cout << "Point 소멸자\n";
+	}
 	void print() {
 		cout << "\t(" << x << ", " << y << ")\n";
 	}
@@ -14,7 +19,13 @@ class Line {	// 화면 상의 선분을 표현하는 클래스
 	Point p1, p2;	// 선분의 양 끝 점
 
 public:
-	Line(int x1, int y1, int x2, int y2) : p1(x1, y1), p2(x2, y2) {}
+	Line(int x1, int y1, int x2, int y2) : p1(x1, y1), p2(x2, y2) {
+		cout << "Line 생성자\n";
+	}
+
+	~Line(){	// 소멸자
+		cout << "Line 소멸자\n";
+	}
 
 	void print() {
 		cout << "Line: \n";
