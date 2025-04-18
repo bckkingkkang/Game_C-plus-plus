@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\VectorExample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BDFB24B-E257-450F-8576-B94D5B2689B6}|VectorExample\\VectorExample.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\VectorExample\\VectorExample\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0BDFB24B-E257-450F-8576-B94D5B2689B6}|VectorExample\\VectorExample.vcxproj|solutionrelative:VectorExample\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0BDFB24B-E257-450F-8576-B94D5B2689B6}|VectorExample\\VectorExample.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\VectorExample\\VectorExample\\VectorExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0BDFB24B-E257-450F-8576-B94D5B2689B6}|VectorExample\\VectorExample.vcxproj|solutionrelative:VectorExample\\VectorExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDFB24B-E257-450F-8576-B94D5B2689B6}|VectorExample\\VectorExample.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\VectorExample\\VectorExample\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0BDFB24B-E257-450F-8576-B94D5B2689B6}|VectorExample\\VectorExample.vcxproj|solutionrelative:VectorExample\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,26 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Vector.h",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\VectorExample\\VectorExample\\Vector.h",
               "RelativeDocumentMoniker": "VectorExample\\Vector.h",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\VectorExample\\VectorExample\\Vector.h",
               "RelativeToolTip": "VectorExample\\Vector.h",
-              "ViewState": "AQIAABEAAAAAAAAAAAAcwCUAAAAzAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAuwDkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-17T14:22:15.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VectorExample.cpp",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\VectorExample\\VectorExample\\VectorExample.cpp",
               "RelativeDocumentMoniker": "VectorExample\\VectorExample.cpp",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\VectorExample\\VectorExample\\VectorExample.cpp",
               "RelativeToolTip": "VectorExample\\VectorExample.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-17T14:21:41.634Z",
               "EditorCaption": ""

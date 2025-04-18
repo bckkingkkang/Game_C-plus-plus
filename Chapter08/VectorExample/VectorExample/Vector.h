@@ -39,4 +39,22 @@ public:
 			arr[i] = a.arr[i];
 		}
 	}
+
+	void add(Vector* a, Vector* b) {
+		for (int i = 0; i < dim; i++) {
+			arr[i] = a->arr[i] + b->arr[i];
+		}
+	}
+
+	// 대입 연산자 정의(연산자 중복)
+	void operator = (Vector& a) {
+		// 깊은 복사를 수행하는 clone() 함수 호출
+		clone(a);
+	}
+
+	// 복사 생성자 정의(dim 초기값 0으로 설정)
+	Vector(Vector& a) : dim(0) {
+		// 깊은 복사를 수행하는 clone() 함수 호출
+		clone(a);
+	}
 };
