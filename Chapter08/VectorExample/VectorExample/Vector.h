@@ -28,4 +28,15 @@ public:
 		}
 		cout << "]\n";
 	}
+
+	void clone(Vector& a) {	// 참조자 전달 -> 복사 생성자가 호출되지 않고 실제 객체 직접 참조
+		if (dim > 0) {		// arr이 이미 메모리를 가지고 있다면 해제
+			delete[] arr;
+		}
+		dim = a.dim;		// 복사 대상의 크기 복사
+		arr = new double[dim];	// heap 영역에 새로운 공간 할당
+		for (int i = 0; i < dim; i++) {	// 확보한 공간에 데이터 복사
+			arr[i] = a.arr[i];
+		}
+	}
 };

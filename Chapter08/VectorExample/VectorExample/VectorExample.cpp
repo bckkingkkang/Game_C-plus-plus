@@ -9,4 +9,7 @@ void main() {
 	v.print("V");
 	w.print("W");
 
+	v.clone(u);
+	v.print("V");
+
 }
