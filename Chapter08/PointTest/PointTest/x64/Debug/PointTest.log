@@ -1,0 +1,6 @@
+﻿  Point.cpp
+  PointTest.cpp
+  코드를 생성하고 있습니다...
+D:\Game_C++\Game_C-plus-plus\Chapter08\PointTest\PointTest\PointTest.cpp(2,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+D:\Game_C++\Game_C-plus-plus\Chapter08\PointTest\PointTest\PointTest.cpp(3,8): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+  PointTest.vcxproj -> D:\Game_C++\Game_C-plus-plus\Chapter08\PointTest\x64\Debug\PointTest.exe
