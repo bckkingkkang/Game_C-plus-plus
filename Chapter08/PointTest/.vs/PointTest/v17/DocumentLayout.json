@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{36AE9D36-3CA8-4557-B5B8-6A4E9368418F}|PointTest\\PointTest.vcxproj|solutionrelative:PointTest\\PointTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36AE9D36-3CA8-4557-B5B8-6A4E9368418F}|PointTest\\PointTest.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36AE9D36-3CA8-4557-B5B8-6A4E9368418F}|PointTest\\PointTest.vcxproj|solutionrelative:PointTest\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36AE9D36-3CA8-4557-B5B8-6A4E9368418F}|PointTest\\PointTest.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{36AE9D36-3CA8-4557-B5B8-6A4E9368418F}|PointTest\\PointTest.vcxproj|solutionrelative:PointTest\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AE9D36-3CA8-4557-B5B8-6A4E9368418F}|PointTest\\PointTest.vcxproj|D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36AE9D36-3CA8-4557-B5B8-6A4E9368418F}|PointTest\\PointTest.vcxproj|solutionrelative:PointTest\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,27 +47,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Point.cpp",
-              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.cpp",
-              "RelativeDocumentMoniker": "PointTest\\Point.cpp",
-              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.cpp",
-              "RelativeToolTip": "PointTest\\Point.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-18T16:00:17.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Point.h",
               "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.h",
               "RelativeDocumentMoniker": "PointTest\\Point.h",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.h",
               "RelativeToolTip": "PointTest\\Point.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwA4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-18T16:00:11.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Point.cpp",
+              "DocumentMoniker": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.cpp",
+              "RelativeDocumentMoniker": "PointTest\\Point.cpp",
+              "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\Point.cpp",
+              "RelativeToolTip": "PointTest\\Point.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T16:00:17.897Z",
               "EditorCaption": ""
             },
             {
@@ -78,7 +78,7 @@
               "RelativeDocumentMoniker": "PointTest\\PointTest.cpp",
               "ToolTip": "D:\\Game_C\u002B\u002B\\Game_C-plus-plus\\Chapter08\\PointTest\\PointTest\\PointTest.cpp",
               "RelativeToolTip": "PointTest\\PointTest.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-18T15:59:01.737Z",
               "EditorCaption": ""
