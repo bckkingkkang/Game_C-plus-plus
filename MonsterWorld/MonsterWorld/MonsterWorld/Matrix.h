@@ -35,8 +35,16 @@ public:
 		return cols;
 	}
 
-	int& elem(int x, int y) {
+	//int& elem(int x, int y) {
 		// 참조 반환, elem(x, y) 호출 시 해당 위치의 요소에 직접 접근 가능
+	//	return mat[y][x];
+	//}
+
+	int& elem(int x, int y) {
+		if (y < 0 || y >= rows || x < 0 || x >= cols) {
+			cerr << "[오류] 범위 초과 접근: (" << x << ", " << y << ")\n";
+			exit(1); // 프로그램 강제 종료
+		}
 		return mat[y][x];
 	}
 

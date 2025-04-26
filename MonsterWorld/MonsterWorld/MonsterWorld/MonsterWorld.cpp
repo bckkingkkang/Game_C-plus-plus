@@ -12,6 +12,7 @@
 
 	- "차이는 객체를 직접 저장하냐, 주소만 저장하냐의 차이다."
 
+	9장 상속
 
 */
 
@@ -25,12 +26,24 @@ void main() {
 
 	//Monster m("Monster1", "※", rand() % w, rand() % h);
 	//game.add(m);
-	
-	game.add(new Monster("Monster1", "※", rand() % w, rand() % h));
-	game.add(new Monster("Monster2", "★", rand() % w, rand() % h));
-	game.add(new Monster("Monster3", "§", rand() % w, rand() % h));
-	game.add(new Monster("Monster4", "♥", rand() % w, rand() % h));
 
-	game.play(300, 100);
+	//game.add(Monster("Monster1", "※", rand() % w, rand() % h));
+	//game.add(Monster("Monster2", "★", rand() % w, rand() % h));
+	//game.add(Monster("Monster3", "§", rand() % w, rand() % h));
+	//game.add(Monster("Monster4", "♥", rand() % w, rand() % h));
+	
+	// 8장 객체와 포인터에서 추가
+	//game.add(new Monster("Monster1", "※", rand() % w, rand() % h));
+	//game.add(new Monster("Monster2", "★", rand() % w, rand() % h));
+	//game.add(new Monster("Monster3", "§", rand() % w, rand() % h));
+	//game.add(new Monster("Monster4", "♥", rand() % w, rand() % h));
+
+	// 9장 상속에서 추가
+	game.add(new Zombie("Zombie", "※", rand() % w, rand() % h));
+	game.add(new Vampire("Vampire", "★", rand() % w, rand() % h));
+	game.add(new Ghost("Ghost", "§", rand() % w, rand() % h));
+	game.add(new Jiangshi("Jiangshi", "♥", rand() % w, rand() % h));
+
+	game.play(300, 300);
 	cout << "----------게임 종료----------" << endl;
 }

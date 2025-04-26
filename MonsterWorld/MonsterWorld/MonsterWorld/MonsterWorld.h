@@ -97,15 +97,21 @@ class MonsterWorld {
 public:
 	// 생성자
 	// 8장 객체와 포인터에서 멤버 초기화 리스트 Matrix 추가
-	MonsterWorld(int w, int h) : world(w, h), canvas(w, h), xMax(w), yMax(h) {
+	MonsterWorld(int w, int h) : world(h, w), canvas(w, h), xMax(w), yMax(h) {
 		nMon = 0;
 		nMove = 0;
+
+		cout << "world.Rows() = " << world.Rows() << endl;
+		cout << "world.Cols() = " << world.Cols() << endl;
 
 		for (int y = 0; y < yMax; y++) {
 			for (int x = 0; x < xMax; x++) {
 				Map(x, y) = 1;
 			}
 		}
+
+		// 추가
+		world.print("초기 맵");
 	}
 
 	// 소멸자
@@ -148,7 +154,13 @@ public:
 				//mon[k].move(map, xMax, yMax);
 
 				// 8장 객체와 포인터에서 추가
-				pMon[k]->move(world.Data(), xMax, yMax);
+				//pMon[k]->move(world.Data(), xMax, yMax);
+
+				// 9장 상속에서 추가
+				((Zombie*)pMon[0])->move(world.Data(), xMax, yMax);
+				((Vampire*)pMon[1])->move(world.Data(), xMax, yMax);
+				((Ghost*)pMon[2])->move(world.Data(), xMax, yMax);
+				((Jiangshi*)pMon[3])->move(world.Data(), xMax, yMax);
 			}
 			nMove++;
 			print();
