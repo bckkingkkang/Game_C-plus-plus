@@ -26,7 +26,7 @@ class Monster {
 	}
 
 	// 현재 맵의 위치에 아이템이 있으면 아이템을 먹고 맵의 내용과 먹은 아이템 수를 갱신하는 함수
-	void eat(int map[DIM][DIM]) {
+	void eat(int** map) {
 		if (map[y][x] == 1) {
 			map[y][x] = 0;
 			nItem++;
@@ -48,7 +48,7 @@ public:
 	}
 
 	// 몬스터를 무작위로 이동시키는 함수
-	void move(int map[DIM][DIM], int maxx, int maxy) {
+	void move(int** map, int maxx, int maxy) {
 		switch (rand() % 8) {
 			case 0: y--; break;
 			case 1: y++; break;

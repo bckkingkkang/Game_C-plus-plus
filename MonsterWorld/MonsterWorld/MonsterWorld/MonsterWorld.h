@@ -1,12 +1,13 @@
 #pragma once
 #include "Canvas.h"
 #include "Monster.h"
+#include "Matrix.h"
 #include <windows.h>
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #define DIM 40
-#define MAXMONS 20
+#define MAXMONS 8
 
 class MonsterWorld {
 	// 2차원 배열로 선언한 몬스터 맵
@@ -14,6 +15,10 @@ class MonsterWorld {
 	// xMax, yMax : 맵의 크기
 	// monster 수, 전체 이동 횟수이동 횟수 선언 
 	int xMax, yMax, nMon, nMove;
+
+	// 8장 객체와 포인터에서 추가 
+	Matrix world;
+	Monster* pMon[MAXMONS];
 
 	// 몬스터 객체 배열 선언
 	Monster mon[MAXMONS];
@@ -23,7 +28,10 @@ class MonsterWorld {
 
 	// 몬스터 맵의 항목에 접근하기 위한 함수 (참조자 반환)
 	int& Map(int x, int y) {
-		return map[y][x];
+		//return map[y][x];
+
+		// 8장 객체와 포인터에서 추가
+		return world.elem(x, y);
 	}
 
 	// 몬스터 맵에 남아있는 아이템 수를 반환하는 함수
@@ -31,7 +39,7 @@ class MonsterWorld {
 		int nItem = 0;
 		for (int y = 0; y < yMax; y++) {
 			for (int x = 0; x < xMax; x++) {
-				if (map[y][x] == 1) {
+				if (Map(x,y) == 1) {
 					nItem++;
 				}
 			}
@@ -57,7 +65,7 @@ class MonsterWorld {
 		// 모든 좌표 칸에 대해 아이템이 존재하는 칸에는 "■"를 그린다.
 		for (int y = 0; y < yMax; y++) {
 			for (int x = 0; x < xMax; x++) {
-				if (map[y][x] > 0) {
+				if (Map(x,y) > 0) {
 					canvas.draw(x, y, "■");
 				}
 			}
@@ -66,22 +74,30 @@ class MonsterWorld {
 		// 생성된 몬스터 객체 수 만큼
 		for (int i = 0; i < nMon; i++) {
 			// 각 몬스터(mon[i])를 현재 위치(x, y)의 아이콘(icon)으로 캔버스에 그린다.
-			mon[i].draw(canvas);
+			// mon[i].draw(canvas);
+
+			// 8장 객체와 포인터에서 추가
+			pMon[i]->draw(canvas);
 		}
-		canvas.print("Monster World BASIC");
+		// canvas.print("Monster World BASIC");
+		canvas.print("Monster World DYNAMIC");
 
 		cerr << "전체 이동 횟수 : " << nMove << endl;
 		cerr << "남은 아이템 수 : " << countItems() << endl;
 
 		for (int i = 0; i < nMon; i++) {
-			mon[i].print();
+			//mon[i].print();
+
+			// 8장 객체와 포인터에서 추가
+			pMon[i]->print();
 		}
 	}
 
 
 public:
 	// 생성자
-	MonsterWorld(int w, int h) : canvas(w, h), xMax(w), yMax(h) {
+	// 8장 객체와 포인터에서 멤버 초기화 리스트 Matrix 추가
+	MonsterWorld(int w, int h) : world(w, h), canvas(w, h), xMax(w), yMax(h) {
 		nMon = 0;
 		nMove = 0;
 
@@ -93,13 +109,20 @@ public:
 	}
 
 	// 소멸자
-	~MonsterWorld() { }
+	~MonsterWorld() {
+		for (int i = 0; i < nMon; i++) {
+			delete pMon[i];
+		}
+	}
 
 	// MonsterWorld에 Monster를 추가하는 함수
-	void add(Monster m) {
+	void add(Monster* m) {
 		if (nMon < MAXMONS) {
 			// Monster 객체를 저장하는 배열 mon[MAXMONS] 해당 인덱스에 생성한 Monster 객체 m을 복사해 저장하고 mMon을 1 증가시킨다.
-			mon[nMon++] = m;
+			//mon[nMon++] = m;
+
+			// 8장 객체와 포인터에서 추가
+			pMon[nMon++] = m;
 		}
 	}
 
@@ -122,7 +145,10 @@ public:
 
 		for (int i = 0; i < maxwalk; i++) {
 			for (int k = 0; k < nMon; k++) {
-				mon[k].move(map, xMax, yMax);
+				//mon[k].move(map, xMax, yMax);
+
+				// 8장 객체와 포인터에서 추가
+				pMon[k]->move(world.Data(), xMax, yMax);
 			}
 			nMove++;
 			print();
