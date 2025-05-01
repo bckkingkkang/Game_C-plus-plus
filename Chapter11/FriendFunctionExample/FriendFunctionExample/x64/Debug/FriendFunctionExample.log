@@ -1,0 +1,3 @@
+﻿  FriendFunctionExample.cpp
+D:\Game_C++\Game_C-plus-plus\Chapter11\FriendFunctionExample\FriendFunctionExample\FriendFunctionExample.cpp(2,6): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  FriendFunctionExample.vcxproj -> D:\Game_C++\Game_C-plus-plus\Chapter11\FriendFunctionExample\x64\Debug\FriendFunctionExample.exe
